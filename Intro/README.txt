@@ -1,9 +1,6 @@
-The first problem in this intro project was simply to return seventeen. I accomplished this with the statement return 17; For the second project in our
-intro project we were asked to return the logical and of three booleans: a, b, and c. I did this using the built in && operator in Java. The third 
-problem asked us to print out a left justified pyramid of stars with a given number(n) of rows. I accomplished this using a nested for loop. One for 
-loop looped through each of the rows, and the other for loop added on stars to the string based off which row it was currently on. In between for loops
-I added a new line character and this was returned after the nested for loops finished running. The final problem asked us to find the minimum number
-of two and five cent coins that could go into a given number of cents. I did this by first finding the maximum number of 5 cent coins that could
-go into the number, then checking if the remainder was divisible by two. If this didn't work then I tried decreasing the number of 5 cent coins by one
-and checking if that worked. If both didn't work then I returned -1, otherwise I returned the minimum number of two and five cent coins that could go
-into the given number of cents.
+This cow project is based off of the basic cow code that could be found on paleyontology. What I did in this project was modifiy the code already given
+and add on features to the "cow". My fulfills the the specifications as I added on two pairs of legs for the cow and changed the body to a more oval
+shape. I also added on an eye to the "cow" to make it even more realistic. As of right now, this project doesn't have any errors. The structure of this
+code contains two classes. The first class, CowFrame, is the class which creates the actual window containing the cow and the ovals which make up the 
+cow. The second class, Main, is the code which instantiates the CowFrame class and sets it to visible. This is the code which actually create the frame
+making it visible to the user. 

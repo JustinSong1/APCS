@@ -38,7 +38,7 @@ public class Intro {
 	 * @param n - cents that you want to exchange
 	 * @return Minimun number of 2cent and 5cent coins that go into the amount of money to exchange, Returns negative 1 if not possible
 	 */
-	public int coins(int n) {
+	public static int coins(int n) {
 		int remainder = n % 5;
 		int numOfNickels = (n-remainder)/5;
 		int numOfTwoCentCoins = remainder/2;
@@ -53,4 +53,7 @@ public class Intro {
 		return -1;
 	}
 	
+	public static void main(String[] args) {
+		System.out.println(coins(1));
+	}
 }
